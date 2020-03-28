@@ -1,0 +1,21 @@
+{
+    "printWidth": 100,
+    "tabWidth": 4,
+    "arrowParens": "always",
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "jsxBracketSameLine": false,
+    "trailingComma": "es5",
+    "semi": true,
+    "braceStyle": "collapse,preserve-inline",
+    "excludes": ["node_modules/*"],
+    "overrides": [
+        {
+            "files": "*.scss",
+            "options": {
+                "singleQuote": false,
+                "proseWrap": "never"
+            }
+        }
+    ]
+}
